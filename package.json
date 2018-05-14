@@ -1,0 +1,15 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "set up react project from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scratch",
+    "react"
+  ],
+  "author": "Yi",
+  "license": "MIT"
+}
