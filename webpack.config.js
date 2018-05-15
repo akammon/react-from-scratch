@@ -24,7 +24,7 @@ module.exports = {
         extensions: ['*', '.js', '.jsx']
     },
     output: {
-        publicPath: publicPath,
+        publicPath: bundlePath,
         filename: 'bundle.js'
     },
     devServer: {
