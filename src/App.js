@@ -1,15 +1,33 @@
 import React, { Component} from 'react';
 import './App.css';
-import People from './People.js';
+import Clock from './components/Clock.js';
+import WarnerPage from './components/WarnerPage.js';
+import List from './components/List.js';
+import Form from './components/Form.js';
+import Select from './components/Select.js';
+import Calculator from './components/Calculator.js';
+
+const items = [
+    {id: 2, content: 'How are you?'},
+    {id: 14, content: 'Let\'s go Celtics!'}
+];
+
+const options = [
+    'mango',
+    'apple'
+];
 
 class App extends Component {
     
     render() {
         return (
-            <div className="App">
-                <People name="Jhon" />
-                <People name="Davie" />
-                <People name="Kim" />
+            <div>
+                <Clock />
+                <WarnerPage />
+                <List items={items} />
+                <Form />
+                <Select options={options} />
+                <Calculator />
             </div>
         );
     }
