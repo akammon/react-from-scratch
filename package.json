@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "start-main-dev": "electron ./src/main.js"
   },
   "keywords": [
     "scratch",
@@ -27,6 +28,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "electron": "^2.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   }

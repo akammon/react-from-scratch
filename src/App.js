@@ -6,6 +6,7 @@ import List from './components/List.js';
 import Form from './components/Form.js';
 import Select from './components/Select.js';
 import Calculator from './components/Calculator.js';
+import LogContainer from './components/LogContainer.js';
 
 const items = [
     {id: 2, content: 'How are you?'},
@@ -23,11 +24,12 @@ class App extends Component {
         return (
             <div>
                 <Clock />
-                <WarnerPage />
+                <LogContainer />
+                {/* <WarnerPage />
                 <List items={items} />
                 <Form />
                 <Select options={options} />
-                <Calculator />
+                <Calculator /> */}
             </div>
         );
     }
